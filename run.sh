@@ -1,1 +1,1 @@
-docker run paperinik/rpi-maven /media/usbraid/docker/maven:/root/.m2 mvn package
+docker run -v /media/usbraid/docker/maven:/root/.m2 -it paperinik/rpi-maven package
