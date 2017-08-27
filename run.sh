@@ -1,1 +1,1 @@
-docker run -v /media/usbraid/docker/maven:/root/.m2 -it paperinik/rpi-maven package
+docker run -it -v /media/usbraid/docker/maven:/root/.m2 paperinik/rpi-maven clean
