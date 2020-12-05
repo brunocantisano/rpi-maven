@@ -1,7 +1,7 @@
-FROM paperinik/rpi-java8:latest
+FROM balenalib/raspberrypi3-debian-openjdk:11
 MAINTAINER Bruno Cantisano <bruno.cantisano@gmail.com>
 
-ENV MAVEN_VERSION 3.3.3
+ENV MAVEN_VERSION 3.6.3
 
 RUN apt-get clean \
     && apt-get update \
